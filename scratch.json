@@ -1,0 +1,678 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=Taylor&type=artist&locale=en-US%2Cen%3Bq%3D0.9&offset=0&limit=20",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        },
+        "followers": {
+          "href": null,
+          "total": 86683630
+        },
+        "genres": ["pop"],
+        "href": "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb6a224073987b930f99adc706",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051746a224073987b930f99adc706",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1786a224073987b930f99adc706",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Swift",
+        "popularity": 100,
+        "type": "artist",
+        "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1A0WloDoRE88uUwo3wensY"
+        },
+        "followers": {
+          "href": null,
+          "total": 167590
+        },
+        "genres": ["singer-songwriter pop"],
+        "href": "https://api.spotify.com/v1/artists/1A0WloDoRE88uUwo3wensY",
+        "id": "1A0WloDoRE88uUwo3wensY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb37f238dd7bc791c0b9f3a987",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517437f238dd7bc791c0b9f3a987",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17837f238dd7bc791c0b9f3a987",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Acorn",
+        "popularity": 55,
+        "type": "artist",
+        "uri": "spotify:artist:1A0WloDoRE88uUwo3wensY"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3Fxg10eJ6YmvUdM2PPB4Zk"
+        },
+        "followers": {
+          "href": null,
+          "total": 44039
+        },
+        "genres": ["alt z"],
+        "href": "https://api.spotify.com/v1/artists/3Fxg10eJ6YmvUdM2PPB4Zk",
+        "id": "3Fxg10eJ6YmvUdM2PPB4Zk",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd0481ee38599e36c7a1ba557",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174d0481ee38599e36c7a1ba557",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178d0481ee38599e36c7a1ba557",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Bickett",
+        "popularity": 45,
+        "type": "artist",
+        "uri": "spotify:artist:3Fxg10eJ6YmvUdM2PPB4Zk"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/32lVGr0fSRGT6okLKHiP68"
+        },
+        "followers": {
+          "href": null,
+          "total": 438449
+        },
+        "genres": [
+          "hi-nrg",
+          "new romantic",
+          "new wave pop",
+          "soft rock",
+          "synthpop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/32lVGr0fSRGT6okLKHiP68",
+        "id": "32lVGr0fSRGT6okLKHiP68",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb81e424939b83149565412800",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517481e424939b83149565412800",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17881e424939b83149565412800",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Dayne",
+        "popularity": 54,
+        "type": "artist",
+        "uri": "spotify:artist:32lVGr0fSRGT6okLKHiP68"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2CCqizWr7RQhtABnxW9epA"
+        },
+        "followers": {
+          "href": null,
+          "total": 210273
+        },
+        "genres": ["trap queen"],
+        "href": "https://api.spotify.com/v1/artists/2CCqizWr7RQhtABnxW9epA",
+        "id": "2CCqizWr7RQhtABnxW9epA",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebf08e4ac58f373d044fb9a4bd",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174f08e4ac58f373d044fb9a4bd",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178f08e4ac58f373d044fb9a4bd",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Girlz",
+        "popularity": 45,
+        "type": "artist",
+        "uri": "spotify:artist:2CCqizWr7RQhtABnxW9epA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3CVk2LzA3zH6FBAXuPbnhc"
+        },
+        "followers": {
+          "href": null,
+          "total": 30414
+        },
+        "genres": ["christian indie"],
+        "href": "https://api.spotify.com/v1/artists/3CVk2LzA3zH6FBAXuPbnhc",
+        "id": "3CVk2LzA3zH6FBAXuPbnhc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb531ccade0a961425d1bc589e",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174531ccade0a961425d1bc589e",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178531ccade0a961425d1bc589e",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Armstrong",
+        "popularity": 42,
+        "type": "artist",
+        "uri": "spotify:artist:3CVk2LzA3zH6FBAXuPbnhc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1OUylyH2arsswxRe6dOz3i"
+        },
+        "followers": {
+          "href": null,
+          "total": 11608
+        },
+        "genres": ["christian indie", "roots worship"],
+        "href": "https://api.spotify.com/v1/artists/1OUylyH2arsswxRe6dOz3i",
+        "id": "1OUylyH2arsswxRe6dOz3i",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd50e21a4820c9a62be8a41e5",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174d50e21a4820c9a62be8a41e5",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178d50e21a4820c9a62be8a41e5",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Leonhardt",
+        "popularity": 42,
+        "type": "artist",
+        "uri": "spotify:artist:1OUylyH2arsswxRe6dOz3i"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1f0vGTFXE64SLuypBV8zB0"
+        },
+        "followers": {
+          "href": null,
+          "total": 7240
+        },
+        "genres": ["broadway", "show tunes"],
+        "href": "https://api.spotify.com/v1/artists/1f0vGTFXE64SLuypBV8zB0",
+        "id": "1f0vGTFXE64SLuypBV8zB0",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebab6ebfa8caa0e040db07a404",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174ab6ebfa8caa0e040db07a404",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178ab6ebfa8caa0e040db07a404",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Louderman",
+        "popularity": 47,
+        "type": "artist",
+        "uri": "spotify:artist:1f0vGTFXE64SLuypBV8zB0"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/49hOQR3mPgqpfbPcyaOiC6"
+        },
+        "followers": {
+          "href": null,
+          "total": 482
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/49hOQR3mPgqpfbPcyaOiC6",
+        "id": "49hOQR3mPgqpfbPcyaOiC6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb7aa5ed146ead447fa5985d84",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051747aa5ed146ead447fa5985d84",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1787aa5ed146ead447fa5985d84",
+            "width": 160
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 11,
+        "type": "artist",
+        "uri": "spotify:artist:49hOQR3mPgqpfbPcyaOiC6"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/480xKab3lUPhBBnCzlzqIu"
+        },
+        "followers": {
+          "href": null,
+          "total": 187054
+        },
+        "genres": ["bow pop", "pop violin"],
+        "href": "https://api.spotify.com/v1/artists/480xKab3lUPhBBnCzlzqIu",
+        "id": "480xKab3lUPhBBnCzlzqIu",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebcefd7abc8e4cfd9680005cab",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174cefd7abc8e4cfd9680005cab",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178cefd7abc8e4cfd9680005cab",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Davis",
+        "popularity": 47,
+        "type": "artist",
+        "uri": "spotify:artist:480xKab3lUPhBBnCzlzqIu"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/388sAC0WYTJWunGAr0P8Hj"
+        },
+        "followers": {
+          "href": null,
+          "total": 4012
+        },
+        "genres": ["korean r&b"],
+        "href": "https://api.spotify.com/v1/artists/388sAC0WYTJWunGAr0P8Hj",
+        "id": "388sAC0WYTJWunGAr0P8Hj",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb62ad3c1c023f625ca27714bb",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517462ad3c1c023f625ca27714bb",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17862ad3c1c023f625ca27714bb",
+            "width": 160
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:388sAC0WYTJWunGAr0P8Hj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5f1cs8LexmMYbhNEIOsDLT"
+        },
+        "followers": {
+          "href": null,
+          "total": 22329
+        },
+        "genres": ["south carolina indie"],
+        "href": "https://api.spotify.com/v1/artists/5f1cs8LexmMYbhNEIOsDLT",
+        "id": "5f1cs8LexmMYbhNEIOsDLT",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb03803d9b8263f01f0d85c999",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517403803d9b8263f01f0d85c999",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17803803d9b8263f01f0d85c999",
+            "width": 160
+          }
+        ],
+        "name": "Taylor McCall",
+        "popularity": 45,
+        "type": "artist",
+        "uri": "spotify:artist:5f1cs8LexmMYbhNEIOsDLT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7FYjn4nNgjskhNaWoWl8uy"
+        },
+        "followers": {
+          "href": null,
+          "total": 404
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7FYjn4nNgjskhNaWoWl8uy",
+        "id": "7FYjn4nNgjskhNaWoWl8uy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273ed1fbd5408132a471833f471",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02ed1fbd5408132a471833f471",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ed1fbd5408132a471833f471",
+            "width": 64
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 12,
+        "type": "artist",
+        "uri": "spotify:artist:7FYjn4nNgjskhNaWoWl8uy"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7dHEn2keNItcKpC87CYuO3"
+        },
+        "followers": {
+          "href": null,
+          "total": 181
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7dHEn2keNItcKpC87CYuO3",
+        "id": "7dHEn2keNItcKpC87CYuO3",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb9d539516d3553fa30778daed",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051749d539516d3553fa30778daed",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1789d539516d3553fa30778daed",
+            "width": 160
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 7,
+        "type": "artist",
+        "uri": "spotify:artist:7dHEn2keNItcKpC87CYuO3"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5O05GAU5CdkFsB8fHMhWmN"
+        },
+        "followers": {
+          "href": null,
+          "total": 255
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5O05GAU5CdkFsB8fHMhWmN",
+        "id": "5O05GAU5CdkFsB8fHMhWmN",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273ab60af09a055083fa5b751e2",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02ab60af09a055083fa5b751e2",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851ab60af09a055083fa5b751e2",
+            "width": 64
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 4,
+        "type": "artist",
+        "uri": "spotify:artist:5O05GAU5CdkFsB8fHMhWmN"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/58nB2Z6IiDdTUTwHYw56xI"
+        },
+        "followers": {
+          "href": null,
+          "total": 185126
+        },
+        "genres": ["redneck"],
+        "href": "https://api.spotify.com/v1/artists/58nB2Z6IiDdTUTwHYw56xI",
+        "id": "58nB2Z6IiDdTUTwHYw56xI",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eba0fc6e8727e4183e95e344f7",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174a0fc6e8727e4183e95e344f7",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178a0fc6e8727e4183e95e344f7",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Ray Holbrook",
+        "popularity": 52,
+        "type": "artist",
+        "uri": "spotify:artist:58nB2Z6IiDdTUTwHYw56xI"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/57VMVNQOQFTpkZMltWXBrq"
+        },
+        "followers": {
+          "href": null,
+          "total": 2647
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/57VMVNQOQFTpkZMltWXBrq",
+        "id": "57VMVNQOQFTpkZMltWXBrq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2731d784e17f632bf5f2a17ea2c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e021d784e17f632bf5f2a17ea2c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048511d784e17f632bf5f2a17ea2c",
+            "width": 64
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 17,
+        "type": "artist",
+        "uri": "spotify:artist:57VMVNQOQFTpkZMltWXBrq"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7triIHgYSjbQ6ahcPBgicy"
+        },
+        "followers": {
+          "href": null,
+          "total": 314
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7triIHgYSjbQ6ahcPBgicy",
+        "id": "7triIHgYSjbQ6ahcPBgicy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebfa01cf47c6c97c2c6c8ccbee",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174fa01cf47c6c97c2c6c8ccbee",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178fa01cf47c6c97c2c6c8ccbee",
+            "width": 160
+          }
+        ],
+        "name": "Taylor Dawson",
+        "popularity": 47,
+        "type": "artist",
+        "uri": "spotify:artist:7triIHgYSjbQ6ahcPBgicy"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7xzdqdXfioPbZAVhbdrvG1"
+        },
+        "followers": {
+          "href": null,
+          "total": 118
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7xzdqdXfioPbZAVhbdrvG1",
+        "id": "7xzdqdXfioPbZAVhbdrvG1",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2737e241761f43bb91d69f10702",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e027e241761f43bb91d69f10702",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048517e241761f43bb91d69f10702",
+            "width": 64
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 15,
+        "type": "artist",
+        "uri": "spotify:artist:7xzdqdXfioPbZAVhbdrvG1"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5kuWDLwVfSgL4RFPUVDdnG"
+        },
+        "followers": {
+          "href": null,
+          "total": 93
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5kuWDLwVfSgL4RFPUVDdnG",
+        "id": "5kuWDLwVfSgL4RFPUVDdnG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27332ad2389cbd07df5f8cbb10c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0232ad2389cbd07df5f8cbb10c",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485132ad2389cbd07df5f8cbb10c",
+            "width": 64
+          }
+        ],
+        "name": "Taylor",
+        "popularity": 12,
+        "type": "artist",
+        "uri": "spotify:artist:5kuWDLwVfSgL4RFPUVDdnG"
+      }
+    ],
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/search?query=Taylor&type=artist&locale=en-US%2Cen%3Bq%3D0.9&offset=20&limit=20",
+    "offset": 0,
+    "previous": null,
+    "total": 38
+  }
+}
