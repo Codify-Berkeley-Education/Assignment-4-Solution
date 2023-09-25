@@ -3,8 +3,8 @@
 // I would highly recommend coming up with a way to store common information in a single place.
 
 import ky from "ky";
-import { authOptions, baseUrl } from "../constants";
-import { ResourceType, Resource } from "../types";
+import { authOptions, baseUrl } from "../constants.ts";
+import { ResourceType, Resource } from "../types.ts";
 
 export default async function getItem(
   resourceName: string,

@@ -2,9 +2,9 @@
 // Given an album name, return all of that album's tracks as an array or Resource objects.
 
 import ky from "ky";
-import getItem from "./getItem";
-import { baseUrl, authOptions } from "../constants";
-import { Resource } from "../types";
+import getItem from "./getItem.ts";
+import { baseUrl, authOptions } from "../constants.ts";
+import { Resource } from "../types.ts";
 
 export default async function getTracks(
   albumName: string

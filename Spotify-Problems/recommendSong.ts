@@ -9,10 +9,10 @@
 // For this problem, ensure you are passing 'ES' (English Speaking) as the market parameter to the API.
 
 import ky from "ky";
-import getItem from "./getItem";
-import getTracks from "./getTracks";
-import { baseUrl, authOptions } from "../constants";
-import { Resource } from "../types";
+import getItem from "./getItem.ts";
+import getTracks from "./getTracks.ts";
+import { baseUrl, authOptions } from "../constants.ts";
+import { Resource } from "../types.ts";
 
 export default async function recommendSong(
   seed: Resource,
@@ -61,17 +61,76 @@ async function recommendFromAlbum(
   excluded: Resource[]
 ): Promise<Resource> {
   let highestPopularity: number = -1;
-  let mostPopularSong: Resource;
+  let mostPopularSong: Resource | undefined = undefined;
+
+  // Get all of the track IDs from the album
   const tracks: Resource[] = await getTracks(seed.name);
-  //   return mostPopularSong;
+
+  // Our getTrack function does not return the popularity field, so we must get it ourselves
+  // from the API using the tracks endpoint
+
+  // Get a comma separated string of all the track IDs
+  // The commas will be encoded as %2C
+  const trackIDs: string = tracks
+    .map((track: Resource) => {
+      return track.SpotifyID;
+    })
+    .join(",");
+
+  // Get the full track objects from the API
+  const requestURI = `${baseUrl}/tracks?market=ES&ids=${trackIDs}`;
+  const response: any = await ky.get(encodeURI(requestURI), authOptions).json();
+
+  // Get the IDs of the tracks to exclude from the resource objects
+  const excludeTrackIDs: string[] = excluded.map((track: Resource) => {
+    return track.SpotifyID;
+  });
+
+  // Iterate through all of the tracks and find the most popular one
+  response.tracks.forEach((track: any) => {
+    if (
+      track.popularity > highestPopularity &&
+      !excludeTrackIDs.includes(track.id)
+    ) {
+      highestPopularity = track.popularity;
+      mostPopularSong = {
+        name: track.name,
+        SpotifyID: track.id,
+        type: "track",
+      };
+    }
+  });
+
+  if (mostPopularSong !== undefined) {
+    return mostPopularSong;
+  }
+
+  throw new Error(`No songs found for album ${seed.name} not in excluded list`);
 }
 
-const item = await getItem("Olivia Rodrigo", "artist");
+// const item = await getItem("Olivia Rodrigo", "artist");
+// console.log(item);
+// const response = await recommendSong(item, [
+//   {
+//     name: "vampire",
+//     SpotifyID: "1kuGVB7EU95pJObxwvfwKS",
+//     type: "track",
+//   },
+// ]);
+// console.log(response);
+
+const item = await getItem("GUTS", "album");
 console.log(item);
+
 const response = await recommendSong(item, [
   {
     name: "vampire",
     SpotifyID: "1kuGVB7EU95pJObxwvfwKS",
+    type: "track",
+  },
+  {
+    name: "bad idea right?",
+    SpotifyID: "3IX0yuEVvDbnqUwMBB3ouC",
     type: "track",
   },
 ]);
