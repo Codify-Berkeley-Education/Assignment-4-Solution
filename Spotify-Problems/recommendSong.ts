@@ -119,7 +119,7 @@ async function recommendFromAlbum(
 // ]);
 // console.log(response);
 
-const item = await getItem("GUTS", "album");
+const item = await getItem("SOUR", "album");
 console.log(item);
 
 const response = await recommendSong(item, [
@@ -131,6 +131,11 @@ const response = await recommendSong(item, [
   {
     name: "bad idea right?",
     SpotifyID: "3IX0yuEVvDbnqUwMBB3ouC",
+    type: "track",
+  },
+  {
+    name: "deja vu",
+    SpotifyID: "6HU7h9RYOaPRFeh0R3UeAr",
     type: "track",
   },
 ]);
