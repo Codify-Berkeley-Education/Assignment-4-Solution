@@ -4,8 +4,8 @@
 // The playlist should be an array of Resource objects of type "track"
 
 import ky from "ky";
-import getItem from "./getItem.ts";
-import getTracks from "./getTracks.ts";
+import getItem from "./P2-getItem.ts";
+import getTracks from "./P4-getTracks.ts";
 import { baseUrl, authOptions } from "../constants.ts";
 import { Resource, Settings } from "../types.ts";
 
