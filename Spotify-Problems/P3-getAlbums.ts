@@ -28,5 +28,5 @@ export default async function getAlbums(
   });
 }
 
-const response = await getAlbums("Taylor Swift");
+const response = await getAlbums("Travis Scott");
 console.log(response);

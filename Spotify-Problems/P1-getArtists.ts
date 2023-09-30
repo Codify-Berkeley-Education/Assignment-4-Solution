@@ -52,6 +52,10 @@ export default async function getArtistId(
   return null;
 }
 
+console.log(await getArtistId("Taylor Swift"));
+console.log(await getArtistId("Kendrick Lamar"));
+console.log(await getArtistId("Kendrick Lamarrrrrr"));
+
 // Response from getArtistId("Taylor Swift")
 const sample_response = {
   artists: {

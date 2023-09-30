@@ -33,12 +33,16 @@ export default async function recommendPlaylist(
   const settingsString: string = Object.entries(settings)
     .filter(([, value]) => value !== undefined)
     .map(([key, value]) => `${key}=${value}`)
-    .join(",");
+    .join("&");
 
   // Make the request to the recommendations endpoint
+
+  // &${settingsString}
   const response: any = await ky
     .get(
-      `${baseUrl}/recommendations?seed_artists=${seedArtistIDsString}&seed_tracks=${seedTrackIDsString}&${settingsString}`,
+      encodeURI(
+        `${baseUrl}/recommendations?seed_artists=${seedArtistIDsString}&seed_tracks=${seedTrackIDsString}&${settingsString}`
+      ),
       authOptions
     )
     .json();
@@ -68,13 +72,23 @@ const seedResources: Resource[] = [
     type: "track",
   },
   {
-    name: "deja vu",
-    SpotifyID: "6HU7h9RYOaPRFeh0R3UeAr",
-    type: "track",
+    name: "Kendrick Lamar",
+    SpotifyID: "2YZyLoL8N0Wb9xBt1NhZWg",
+    type: "artist",
+  },
+  {
+    name: "Kanye West",
+    SpotifyID: "5K4W6rqBFWDnAN6FQUkS6x",
+    type: "artist",
   },
 ];
 
-const options: Settings = {};
+const options: Settings = {
+  target_danceability: 0.7,
+  target_energy: 0.7,
+  target_instrumentalness: 0.1,
+  target_popularity: 40,
+};
 
 const response = await recommendPlaylist(seedResources, options);
 console.log(response);

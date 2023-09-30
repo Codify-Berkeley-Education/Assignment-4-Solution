@@ -119,10 +119,13 @@ async function recommendFromAlbum(
 // ]);
 // console.log(response);
 
-const item = await getItem("SOUR", "album");
-console.log(item);
+const artistSeed: Resource = {
+  name: "Olivia Rodrigo",
+  SpotifyID: "1McMsnEElThX1knmY4oliG",
+  type: "artist",
+};
 
-const response = await recommendSong(item, [
+let response = await recommendSong(artistSeed, [
   {
     name: "vampire",
     SpotifyID: "1kuGVB7EU95pJObxwvfwKS",
@@ -139,4 +142,18 @@ const response = await recommendSong(item, [
     type: "track",
   },
 ]);
+console.log(response);
+
+response = await recommendSong(artistSeed, []);
+
+console.log(response);
+
+const albumSeed: Resource = {
+  name: "Red (Taylor's Version)",
+  SpotifyID: "6kZ42qRrzov54LcAk4onW9",
+  type: "album",
+};
+
+response = await recommendSong(albumSeed, []);
+
 console.log(response);

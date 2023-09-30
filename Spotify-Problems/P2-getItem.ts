@@ -9,7 +9,7 @@ import { ResourceType, Resource } from "../types.ts";
 export default async function getItem(
   resourceName: string,
   resourceType: ResourceType
-): Promise<Resource> {
+): Promise<Resource | null> {
   const requestURI = `${baseUrl}/search?q=${resourceName}&type=${resourceType}&limit=1`;
   // Get the response
   const response: any = await ky.get(encodeURI(requestURI), authOptions).json();
@@ -24,10 +24,17 @@ export default async function getItem(
       type: resourceType,
     };
   }
-  throw new Error(`No ${resourceType} found with name ${resourceName}`);
+  return null;
 }
 
-// const response = await getItem("Olivia Rodrigo", "artist");
-// const response = await getItemID("Red (Taylor's Versionn)", "album");
+const response1 = await getItem("Kendrick Lamar", "artist");
+const response2 = await getItem("Kanye West", "artist");
 
-// console.log(response);
+// const response2 = await getItem("Olivia Rodrigo", "album");
+// const response3 = await getItem("Red (Taylor's Version)", "album");
+// const response4 = await getItem("Plastic Hearts", "track");
+
+console.log(response1);
+console.log(response2);
+// console.log(response3);
+// console.log(response4);
